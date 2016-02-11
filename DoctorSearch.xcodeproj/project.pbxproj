@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014BBD841C4E3AB600B5BE64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BBD831C4E3AB600B5BE64 /* main.m */; };
+		014BBD871C4E3AB600B5BE64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BBD861C4E3AB600B5BE64 /* AppDelegate.m */; };
+		014BBD8A1C4E3AB600B5BE64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BBD891C4E3AB600B5BE64 /* ViewController.m */; };
+		014BBD8D1C4E3AB600B5BE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014BBD8B1C4E3AB600B5BE64 /* Main.storyboard */; };
+		014BBD8F1C4E3AB600B5BE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014BBD8E1C4E3AB600B5BE64 /* Assets.xcassets */; };
+		014BBD921C4E3AB600B5BE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014BBD901C4E3AB600B5BE64 /* LaunchScreen.storyboard */; };
+		014BBD9A1C4E3B6600B5BE64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014BBD991C4E3B6600B5BE64 /* CoreLocation.framework */; };
+		014BBD9C1C4E3B6E00B5BE64 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014BBD9B1C4E3B6E00B5BE64 /* MapKit.framework */; };
+		014BBDA21C4E801B00B5BE64 /* DoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BBDA11C4E801B00B5BE64 /* DoctorViewController.m */; };
+		014BBE291C589AAF00B5BE64 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BBE281C589AAF00B5BE64 /* ListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014BBD7F1C4E3AB600B5BE64 /* DoctorSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014BBD831C4E3AB600B5BE64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		014BBD851C4E3AB600B5BE64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		014BBD861C4E3AB600B5BE64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		014BBD881C4E3AB600B5BE64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		014BBD891C4E3AB600B5BE64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		014BBD8C1C4E3AB600B5BE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		014BBD8E1C4E3AB600B5BE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		014BBD911C4E3AB600B5BE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		014BBD931C4E3AB600B5BE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014BBD991C4E3B6600B5BE64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		014BBD9B1C4E3B6E00B5BE64 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		014BBDA01C4E801B00B5BE64 /* DoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorViewController.h; sourceTree = "<group>"; };
+		014BBDA11C4E801B00B5BE64 /* DoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorViewController.m; sourceTree = "<group>"; };
+		014BBE271C589AAF00B5BE64 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		014BBE281C589AAF00B5BE64 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014BBD7C1C4E3AB600B5BE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014BBD9C1C4E3B6E00B5BE64 /* MapKit.framework in Frameworks */,
+				014BBD9A1C4E3B6600B5BE64 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014BBD761C4E3AB600B5BE64 = {
+			isa = PBXGroup;
+			children = (
+				014BBD9B1C4E3B6E00B5BE64 /* MapKit.framework */,
+				014BBD991C4E3B6600B5BE64 /* CoreLocation.framework */,
+				014BBD811C4E3AB600B5BE64 /* DoctorSearch */,
+				014BBD801C4E3AB600B5BE64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014BBD801C4E3AB600B5BE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014BBD7F1C4E3AB600B5BE64 /* DoctorSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014BBD811C4E3AB600B5BE64 /* DoctorSearch */ = {
+			isa = PBXGroup;
+			children = (
+				014BBD851C4E3AB600B5BE64 /* AppDelegate.h */,
+				014BBD861C4E3AB600B5BE64 /* AppDelegate.m */,
+				014BBD881C4E3AB600B5BE64 /* ViewController.h */,
+				014BBD891C4E3AB600B5BE64 /* ViewController.m */,
+				014BBDA01C4E801B00B5BE64 /* DoctorViewController.h */,
+				014BBDA11C4E801B00B5BE64 /* DoctorViewController.m */,
+				014BBD8B1C4E3AB600B5BE64 /* Main.storyboard */,
+				014BBE271C589AAF00B5BE64 /* ListViewController.h */,
+				014BBE281C589AAF00B5BE64 /* ListViewController.m */,
+				014BBD8E1C4E3AB600B5BE64 /* Assets.xcassets */,
+				014BBD901C4E3AB600B5BE64 /* LaunchScreen.storyboard */,
+				014BBD931C4E3AB600B5BE64 /* Info.plist */,
+				014BBD821C4E3AB600B5BE64 /* Supporting Files */,
+			);
+			path = DoctorSearch;
+			sourceTree = "<group>";
+		};
+		014BBD821C4E3AB600B5BE64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				014BBD831C4E3AB600B5BE64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014BBD7E1C4E3AB600B5BE64 /* DoctorSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014BBD961C4E3AB600B5BE64 /* Build configuration list for PBXNativeTarget "DoctorSearch" */;
+			buildPhases = (
+				014BBD7B1C4E3AB600B5BE64 /* Sources */,
+				014BBD7C1C4E3AB600B5BE64 /* Frameworks */,
+				014BBD7D1C4E3AB600B5BE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorSearch;
+			productName = DoctorSearch;
+			productReference = 014BBD7F1C4E3AB600B5BE64 /* DoctorSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014BBD771C4E3AB600B5BE64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = practo;
+				TargetAttributes = {
+					014BBD7E1C4E3AB600B5BE64 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 014BBD7A1C4E3AB600B5BE64 /* Build configuration list for PBXProject "DoctorSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014BBD761C4E3AB600B5BE64;
+			productRefGroup = 014BBD801C4E3AB600B5BE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014BBD7E1C4E3AB600B5BE64 /* DoctorSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014BBD7D1C4E3AB600B5BE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014BBD921C4E3AB600B5BE64 /* LaunchScreen.storyboard in Resources */,
+				014BBD8F1C4E3AB600B5BE64 /* Assets.xcassets in Resources */,
+				014BBD8D1C4E3AB600B5BE64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014BBD7B1C4E3AB600B5BE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014BBE291C589AAF00B5BE64 /* ListViewController.m in Sources */,
+				014BBD8A1C4E3AB600B5BE64 /* ViewController.m in Sources */,
+				014BBD871C4E3AB600B5BE64 /* AppDelegate.m in Sources */,
+				014BBD841C4E3AB600B5BE64 /* main.m in Sources */,
+				014BBDA21C4E801B00B5BE64 /* DoctorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		014BBD8B1C4E3AB600B5BE64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014BBD8C1C4E3AB600B5BE64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		014BBD901C4E3AB600B5BE64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014BBD911C4E3AB600B5BE64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014BBD941C4E3AB600B5BE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		014BBD951C4E3AB600B5BE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014BBD971C4E3AB600B5BE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practo.DoctorSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		014BBD981C4E3AB600B5BE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practo.DoctorSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014BBD7A1C4E3AB600B5BE64 /* Build configuration list for PBXProject "DoctorSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014BBD941C4E3AB600B5BE64 /* Debug */,
+				014BBD951C4E3AB600B5BE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014BBD961C4E3AB600B5BE64 /* Build configuration list for PBXNativeTarget "DoctorSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014BBD971C4E3AB600B5BE64 /* Debug */,
+				014BBD981C4E3AB600B5BE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014BBD771C4E3AB600B5BE64 /* Project object */;
+}
